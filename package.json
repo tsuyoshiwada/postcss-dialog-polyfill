@@ -1,6 +1,6 @@
 {
   "name": "@tsuyoshiwada/postcss-dialog-polyfill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "PostCSS plugin which add selector needed by dialog-polyfill",
   "main": "lib/index.js",
   "scripts": {
