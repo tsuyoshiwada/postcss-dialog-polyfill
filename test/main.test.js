@@ -4,7 +4,6 @@ import {runTest} from './runTest.helper.js';
 test('Should add needed selector', t => {
 
   return runTest().then(result => {
-    // t.is(true, true);
     t.is(result.css,
 `.test1::backdrop {
   background-color: #fff;
