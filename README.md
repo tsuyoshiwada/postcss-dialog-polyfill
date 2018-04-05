@@ -1,6 +1,15 @@
-# postcss-dialog-polyfill
+# @tsuyoshiwada/postcss-dialog-polyfill
 
->PostCSS plugin which add selector needed by [dialog-polyfill](https://github.com/GoogleChrome/dialog-polyfill)
+> PostCSS plugin which add selector needed by [dialog-polyfill](https://github.com/GoogleChrome/dialog-polyfill)
+
+---
+
+> **This is the [postcss-dialog-polyfill](https://github.com/komachi/postcss-dialog-polyfill) Fork project.**
+
+Bug fix included in the original package.  
+This package is unnecessary when PR is merged :+1:
+
+---
 
 ```css
 /* Input */
@@ -11,15 +20,18 @@
 
 ```css
 /* Output */
-.test1::backdrop, .test1 + .backdrop {
+.test1::backdrop {
+  background-color: #fff;
+}
+.test1 + .backdrop {
   background-color: #fff;
 }
 ```
 
 ## Installation
 
-```
-npm i postcss-dialog-polyfill --save-dev
+```bash
+$ npm i @tsuyoshiwada/postcss-dialog-polyfill -D
 ```
 
 ## Usage
