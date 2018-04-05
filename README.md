@@ -7,7 +7,7 @@
 > **This is the [postcss-dialog-polyfill](https://github.com/komachi/postcss-dialog-polyfill) Fork project.**
 
 Bug fix included in the original package.  
-This package is unnecessary when PR is merged :+1:
+This package is unnecessary when PR ([#1](https://github.com/komachi/postcss-dialog-polyfill/pull/2)) is merged :+1:
 
 ---
 
